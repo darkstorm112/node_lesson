@@ -1,0 +1,22 @@
+{
+  "name": "lesson1",
+  "version": "1.0.0",
+  "description": "简单爬虫应用",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.9",
+    "express": "^4.17.1",
+    "superagent": "^6.1.0",
+    "utility": "^1.17.0"
+  }
+}
